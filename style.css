@@ -13,12 +13,11 @@ body {
     font-size: 100%;
   }
   #profile-card {
-    width: 480px;
-    max-width: calc(100vw - 10px);
+    max-width: calc(90vw - 10px);
+    max-height: calc(90vw -10px);
     background-color: hsla(0, 0%, 100%, .5);
     border-radius: 4px;
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-    margin-top: 18%;
   }
   #head, #section-links {
     text-align: center;
