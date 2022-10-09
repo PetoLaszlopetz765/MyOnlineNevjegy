@@ -13,11 +13,12 @@ body {
     font-size: 100%;
   }
   #profile-card {
+    width:480px;
     max-width: calc(90vw - 10px);
-    max-height: calc(90vw -10px);
     background-color: hsla(0, 0%, 100%, .5);
     border-radius: 4px;
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    margin-top:10%;
   }
   #head, #section-links {
     text-align: center;
@@ -55,9 +56,7 @@ body {
   * {
     box-sizing: border-box;
   }
-  
-  
-  #carimg{
+    #carimg{
     max-height: calc(100%);
     width: calc(100%);
     object-fit: cover;
@@ -88,8 +87,15 @@ body {
   #revol{
     width:8%;
     height:auto;
+    box-shadow: 10px 10px 10px rgb(2, 2, 0);
   }
   a{
     text-decoration: none;
     text-shadow: 10px 10px 10px rgb(2, 2, 0);
+  }
+  i, #revol{
+    transition: all 0.5s ease-in-out;
+  }
+  i:hover, #revol:hover{
+    transform: scale(1.3);
   }
