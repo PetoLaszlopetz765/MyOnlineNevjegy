@@ -86,4 +86,11 @@ body {
   transition: transform 0.5s ease-in-out;
   }
   /*Slider vége*/
-  
+  #revol{
+    width:8%;
+    height:auto;
+  }
+  a{
+    text-decoration: none;
+    text-shadow: 10px 10px 10px rgb(2, 2, 0);
+  }
