@@ -57,7 +57,7 @@ body {
   * {
     box-sizing: border-box;
   }
-    #carimg{
+    .carimg{
     max-height: calc(100%);
     width: calc(100%);
     object-fit: cover;
